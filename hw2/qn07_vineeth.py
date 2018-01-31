@@ -7,14 +7,14 @@ B = 0.5
 
 def energy(N, conf):
     E_s = 0.0
-    for i in range(N)-1:
+    for i in range(N-1):
         E_s += conf[i]*conf[i+1]
     E_s += conf[N-1]*conf[0]
     return E_s
 
 
 def calculate(N, B):
-    conf = []
+    conf = list(range(N))
     E_s = 0
     m_s = 0
     E = 0
