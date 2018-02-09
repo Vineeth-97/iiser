@@ -45,6 +45,10 @@ To logout from the server run `logout_wifi` which is also an alias for
 ```
 ./crclient -l vineethbannu14
 ```
+For 64-bit architectures try installing the library libgcc1 by running,
+```
+sudo apt-get install libgcc1:i386
+``` 
 ---
 ## History in bash
 
