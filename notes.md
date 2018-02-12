@@ -52,8 +52,8 @@ sudo apt-get install libgcc1:i386
 ---
 ## History in bash
 
-To increase the history buffer size append the following line in `\etc\profile` :
+To increase the history buffer size append the following line in `.bashrc` :
 ```
-export HISTSIZE = 5000
+export HISTSIZE=5000
 ```
 More options are explained [here](http://linux-training.be/funhtml/ch16.html).
